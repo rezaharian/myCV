@@ -1,0 +1,50 @@
+/* <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('/js/script.js') }}"> */
+
+
+    .vertical-point-progress {
+        max-width: 400px;
+        margin: 0 auto;
+        list-style-type: none;
+        /* counter-reset: none; */
+        margin: 0;
+        font-family: Poppins;
+    }
+    .vertical-point-progress li {
+        padding: 0 0 20px 50px;
+        position: relative;
+        margin: 0;
+    }
+    .vertical-point-progress li:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        /* counter-increment: none; */
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        text-align: center;
+        line-height: 24px;
+        background: #f9b304;
+    }
+
+    .vertical-point-progress li:before {
+        position: absolute;
+        left: 10.4px;
+        top: 0;
+        content: "";
+        height: 100%;
+        width: 0;
+        border: 2px solid #EEF2F6;
+    }
+
+    /* .vertical-point-progress li:first-of-type:before {
+    border: none;
+    }
+
+    .vertical-point-progress li:last-of-type:before {
+    border: none;
+    } */
